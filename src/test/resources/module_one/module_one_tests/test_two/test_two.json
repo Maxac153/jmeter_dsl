@@ -1,0 +1,7 @@
+{
+  "PROPERTIES": {
+    "TEST_NAME": "test_one",
+    "REDIS_KEY_READ": "test",
+    "REDIS_KEY_ADD": "test"
+  }
+}

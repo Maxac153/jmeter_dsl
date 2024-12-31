@@ -1,0 +1,6 @@
+{
+  "PROPERTIES": {
+    "REDIS_CLIENT_URL": "localhost",
+    "REDIS_CLIENT_PORT": "8080"
+  }
+}

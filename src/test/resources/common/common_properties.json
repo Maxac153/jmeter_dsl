@@ -1,0 +1,41 @@
+{
+  "PROFILE": [
+    {
+      "THREAD_GROUP_NAME": "THREAD_GROUP_ONE",
+      "SCRIPT_EXECUTION_TIME": 1,
+      "MAX_THREADS": 1000,
+      "PACING_MULTIPLIER": 3,
+      "STEPS": [
+        {
+          "TPS": 2.0,
+          "RAMP_TIME": 1.0,
+          "HOLD_TIME": 10.0
+        }
+      ]
+    },
+    {
+      "THREAD_GROUP_NAME": "THREAD_GROUP_TWO",
+      "SCRIPT_EXECUTION_TIME": 1,
+      "MAX_THREADS": 1000,
+      "PACING_MULTIPLIER": 3,
+      "STEPS": [
+        {
+          "TPS": 2.0,
+          "RAMP_TIME": 1.0,
+          "HOLD_TIME": 10.0
+        }
+      ]
+    }
+  ],
+  "PROPERTIES": {
+    "API_GATEWAY": "localhost",
+    "INFLUXDB_HOST": "localhost",
+    "PROTOCOL": "http",
+    "WAIT": "0",
+    "DEBUG_ENABLE": "false",
+    "ERROR_LOG_ENABLE": "true",
+    "INFLUX_DB_LOG_ENABLE": "false",
+    "RESULT_TREE_ENABLE": "true",
+    "RESULT_DASHBOARD_ENABLE": "true"
+  }
+}
