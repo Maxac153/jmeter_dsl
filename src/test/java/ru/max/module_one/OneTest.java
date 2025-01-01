@@ -36,9 +36,9 @@ public class OneTest {
         DurationHelper.startTime();
         Properties properties = PropertyHelper.readProperties(
                 "common/common_properties.json",
-                "module_two/module_two_properties.json",
-                "module_two/module_two_groups/group_one_properties.json",
-                "module_two/module_two_tests/test_one/test_one.json"
+                "module_one/module_one_properties.json",
+                "module_one/module_one_groups/group_one_properties.json",
+                "module_one/module_one_tests/test_one/test_one.json"
         );
 
         // Common Parameters

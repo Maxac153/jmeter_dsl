@@ -1,4 +1,19 @@
 {
+  "PROFILE": [
+    {
+      "THREAD_GROUP_NAME": "THREAD_GROUP_ONE",
+      "SCRIPT_EXECUTION_TIME": 1,
+      "MAX_THREADS": 1000,
+      "PACING_MULTIPLIER": 3,
+      "STEPS": [
+        {
+          "TPS": 2.0,
+          "RAMP_TIME": 1.0,
+          "HOLD_TIME": 10.0
+        }
+      ]
+    }
+  ],
   "PROPERTIES": {
     "TEST_NAME": "test_one",
     "REDIS_KEY_READ": "test",
